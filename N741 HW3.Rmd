@@ -1,0 +1,32 @@
+---
+title: "Homework 3"
+author: "Rosemary Kinuthia"
+date: "2/21/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(Rcpp)
+```
+
+```{r}
+#proof that I have installed the required packages
+library(dada2); packageVersion("dada2")
+library(phyloseq); packageVersion("phyloseq");
+library(ShortRead); packageVersion("shortread");
+library(ggplot2); packageVersion("ggplot2");
+```
+
+
+
+```{r}
+# Proof that I have downloaded MiseqSOP, RDP training set, RDP species on my computer
+path <- "~/Desktop/N741 Big Data/Datasets/MiSeq_SOP"
+fns <- list.files(path)
+fns
+```
+
+```{r}
+#The Github repository for this assignment can be accessed via this link [https://github.com/RosemaryKinuthia/N741-Homework-3.git](https://github.com/RosemaryKinuthia/N741-Homework-3.git)
+```
